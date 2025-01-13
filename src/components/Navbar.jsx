@@ -153,7 +153,7 @@ const ResponsiveNavbar = () => {
 
 						</article>
 					</li>
-					<li className="transition-all duration-500 cursor-pointer hover:tex#ffb606#ffb606] capitalize group relative flex items-center gap-[3px]"
+					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize group relative flex items-center gap-[3px]"
 						onMouseOver={() => setServiceHover(true)}
 						onMouseLeave={() => setServiceHover(false)}>
 						Our Achievement
