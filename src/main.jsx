@@ -9,7 +9,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <div>
       <RouterProvider router={router}>
-
       </RouterProvider>
     </div>
   </StrictMode>,
