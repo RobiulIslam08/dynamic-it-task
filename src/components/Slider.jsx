@@ -68,6 +68,10 @@ const Slider = () => {
           clickable: true,
         }}
         navigation={true}
+		autoplay={{
+			delay: 2000, // Set the slide change interval to 2 seconds
+			disableOnInteraction: false, // Ensures autoplay continues even after interaction
+		  }}
         modules={[Pagination, Navigation,Autoplay]}
     
         className="mySwiper h-[200px] md:h-[400px] lg:h-[500px]"
