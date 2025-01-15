@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 
 const testimonials = [
 	{
@@ -48,7 +48,7 @@ const PeopleSay = () => {
 	};
 
 	return (
-		<div className="py-24">
+		<div className="py-10 md:py-24">
 			<h2 className="text-3xl font-bold text-center mb-8">What People Say</h2>
 			<div className="flex justify-center items-center space-x-4">
 				{/* Profile Images */}
