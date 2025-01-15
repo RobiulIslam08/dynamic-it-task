@@ -70,7 +70,7 @@ const ResponsiveNavbar = () => {
 	return (
 		<div>
 			{/*  first nav part */}
-			<nav className="flex justify-between py-3 px-4 md:px-24 bg-[#222222] ">
+			<nav className="flex justify-between py-3 px-4 md:px-24 bg-[#222222] overflow-x-hidden">
 				<div className="flex items-center gap-5 md:gap-2">
 					<p className="text-white font-fontRoboto text-xs hidden md:flex">Contact us:</p>
 

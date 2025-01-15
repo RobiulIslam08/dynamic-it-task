@@ -57,7 +57,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const Slider = () => {
   return (
-    <>
+    <div className='max-w-screen overflow-hidden'>
       <Swiper
         style={{
           '--swiper-navigation-color': '#fff',
@@ -192,7 +192,7 @@ const Slider = () => {
 
       </Swiper>
 
-    </>
+    </div>
   );
 };
 

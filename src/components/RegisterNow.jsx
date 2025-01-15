@@ -3,16 +3,16 @@ import backgroundImg from '../assets/images/bg-register.jpg';
 const RegisterNow = () => {
 	return (
 		<div
-			className="relative  bg-cover bg-center mb-16"
+			className="relative  bg-cover bg-center max-w-screen overflow-hidden "
 			style={{
 				backgroundImage: `url(${backgroundImg})`,
 			}}
 		>
 			{/* Overlay */}
-			<div className="absolute inset-0 bg-black opacity-50"></div>
+			<div className="absolute inset-0 bg-black opacity-50 overflow-x-hidden"></div>
 
 			{/* Content */}
-			<div className="relative text-white p-10 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-36 px-6 md:px-24 ">
+			<div className="overflow-x-hidden relative text-white p-10 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-36 px-6 md:px-24 ">
 				{/*  text */}
 				<div>
 					<h1 className='uppercase font-fontRobotoSlab text-[#c2c213] text-2xl md:text-5xl font-bold mb-2'>Register Now</h1>

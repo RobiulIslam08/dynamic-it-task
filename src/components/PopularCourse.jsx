@@ -74,9 +74,9 @@ export default function PopularCourse() {
   const nextButtonRef = useRef(null); // Reference for the next button
 
   return (
-    <div className='md:px-24 px-6 my-5'>
+    <div className='md:px-24 px-6 my-5 max-w-screen overflow-hidden'>
       {/*  top */}
-      <div className='flex items-center justify-between mb-8'>
+      <div className='flex items-center justify-between mb-8 overflow-x-hidden'>
         {/* text */}
         <div>
           <h1 className='font-fontRobotoSlab text-[#333333] text-3xl font-bold mb-2'>Popular Course</h1>
