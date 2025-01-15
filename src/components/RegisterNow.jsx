@@ -3,7 +3,7 @@ import backgroundImg from '../assets/images/bg-register.jpg';
 const RegisterNow = () => {
 	return (
 		<div
-			className="relative  bg-cover bg-center"
+			className="relative  bg-cover bg-center mb-16"
 			style={{
 				backgroundImage: `url(${backgroundImg})`,
 			}}
