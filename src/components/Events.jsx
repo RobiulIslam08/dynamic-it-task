@@ -41,17 +41,19 @@ const Events = () => {
 					</div>
 					<img src="https://ditibd.com/wp-content/uploads/2022/04/courses-14-450x233.jpg" alt="" />
 				</div>
+
+				<hr className="md:hidden flex mb-5 mt-6 text-blue-800"></hr>
 				{/* card two */}
-				<div className="flex flex-col-reverse md:flex-row items-center justify-between gap-14">
+				<div className="flex flex-col-reverse md:flex-row items-center justify-between gap-14 mt-4">
 					{/* date */}
 					<div className="hidden md:flex flex-col">
-						<p className="text-[#ffb606] text-6xl font-bold font-fontRoboto ">30</p>
+						<p className="text-[#ffb606] text-6xl font-bold font-fontRoboto ">25</p>
 						<p className="text-center text-[#606060]">Sep</p>
 					</div>
 					<div className="hidden md:flex h-20 w-1 text-[#e4c3c3] border"></div>
 					{/* detaisl */}
 					<div className="space-y-3">
-						<h4 className="font-fontRobotoSlab text-lg hover:text-[#ffb606] transition-all duration-300 ease-in font-semibold text-[#333333]">Applying Natural Laws to Technology and Society</h4>
+						<h4 className="font-fontRobotoSlab text-lg hover:text-[#ffb606] transition-all duration-300 ease-in font-semibold text-[#333333]">Managing Time for Study</h4>
 						<div className="flex items-center gap-4">
 							<div className="flex items-center text-[#878787] gap-2">
 								<CiClock2 />
@@ -59,12 +61,12 @@ const Events = () => {
 							</div>
 							<div className="flex items-center text-[#878787] gap-2">
 								<IoLocationOutline />
-								<p>NewYork, USA</p>
+								<p>Paris, French</p>
 							</div>
 						</div>
 						<p className="text-[#606060] font-fontRoboto text-sm">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris itae erat conuat</p>
 					</div>
-					<img src="https://ditibd.com/wp-content/uploads/2022/04/courses-14-450x233.jpg" alt="" />
+					<img src="https://ditibd.com/wp-content/uploads/2015/12/event-2-450x233.jpg" alt="" />
 				</div>
 			</div>
 		</div>
