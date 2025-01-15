@@ -16,34 +16,32 @@ const Footer = () => {
 						className="w-[150px] mb-[20px]" />
 					<div className="flex flex-col gap-[20px] text-primary">
 						<span><a
+							className="text-[0.9rem] flex items-center gap-[8px]  cursor-pointer text-[#999999]">
+							<MdOutlineLocalPhone className="text-[1.1rem] text-[#ffb606] " />
+							01932-130715
+						</a></span>
+						<span><a
 							className="text-[0.9rem] flex items-center gap-[8px] cursor-pointer text-[#999999]">
-							<IoLocationOutline className="text-[1.2rem]" />
-							Kulaura, Moulvibazar, Sylhet
+							<IoLocationOutline className="text-[1.2rem] text-[#ffb606]" />
+							Sherpur Govt Collage, Sherpur Town, Sherpur 2100
 						</a></span>
 						<span><a
-							className="text-[0.9rem] flex items-center gap-[8px] hover:text-blue-400 cursor-pointer text-[#999999]">
-							<MdOutlineEmail className="text-[1.1rem] " />
-							zenuilibrary@gmail.com
+							className="text-[0.9rem] flex items-center gap-[8px]  cursor-pointer text-[#999999]">
+							<MdOutlineEmail className="text-[1.1rem] text-[#ffb606] " />
+							dynamicit20@gmail.com
 						</a></span>
-						<span><a
-							className="text-[0.9rem] flex items-center gap-[8px] hover:text-blue-400 cursor-pointer text-[#999999]">
-							<MdOutlineLocalPhone className="text-[1.1rem] " />
-							+8801305282768
-						</a></span>
+
 					</div>
 				</div>
 
 				<div className="">
-					<h3 className="text-[1.2rem] font-semibold text-text mb-2 text-[#ffffff]">Services</h3>
-					<div className="flex text-black flex-col gap-[10px]">
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">UI
-							Components</p>
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Website
-							Templates</p>
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Icons</p>
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Opacity
-							Palette</p>
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Blocks</p>
+					<h3 className="text-[1.2rem] font-semibold text-text mb-2 text-[#ffffff] font-fontRobotoSlab">Company</h3>
+					<div className="flex text-black flex-col gap-[10px] font-fontRoboto">
+						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">About</p>
+						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Blog</p>
+						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Contact</p>
+						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Become a Teacher</p>
+
 					</div>
 				</div>
 

@@ -68,9 +68,9 @@ const ResponsiveNavbar = () => {
 	const [mobileServiceOpen, setMobileServiceOpen] = useState(false)
 
 	return (
-		<div>
+		<div className="">
 			{/*  first nav part */}
-			<nav className="flex justify-between py-3 px-4 md:px-24 bg-[#222222] overflow-x-hidden">
+			<nav className="flex justify-between py-3 px-4 md:px-24 bg-[#222222]  ">
 				<div className="flex items-center gap-5 md:gap-2">
 					<p className="text-white font-fontRoboto text-xs hidden md:flex">Contact us:</p>
 
@@ -88,7 +88,7 @@ const ResponsiveNavbar = () => {
 			</nav>
 
 			{/* 2nd nav part */}
-			<nav className="flex items-center  justify-between w-full px-4 md:px-24 pr-0 relative h-auto bg-[#47e549] font-fontRoboto ">
+			<nav className="flex items-center  justify-between max-w-full px-4 md:px-24 pr-0 relative h-auto bg-[#47e549] font-fontRoboto  ">
 				<img src="https://ditibd.com/wp-content/uploads/2024/12/315330483_609680960906810_2894060131005582895_n.jpg" alt="logo" className="w-[50px] py-2 " />
 				<ul className="items-center justify-between gap-[40px] text-[1rem] text-[#413f3f] lg:flex hidden ">
 					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize bold ">Home</li>
@@ -101,7 +101,7 @@ const ResponsiveNavbar = () => {
 							className="text-[1.5rem] text-[#424242] group-hover:text-[#ffb606] transition-all duration-500 group-hover:rotate-[180deg]" />
 
 						<article
-							className="p-6 bg-white  boxShadow w-[350px] absolute top-[40px] z-[-1] left-[-100px] group-hover:translate-y-0 translate-y-[-20px] group-hover:opacity-100 opacity-0 group-hover:z-30 transition-all duration-300">
+							className=" p-6 bg-white  boxShadow w-[350px] absolute top-[40px] z-[-1] left-[-100px] group-hover:translate-y-0 translate-y-[-20px] group-hover:opacity-100 opacity-0 group-hover:z-30 transition-all duration-300">
 
 							<div className="">
 								<ul className="flex flex-col gap-[7px] text-[#424242]">
