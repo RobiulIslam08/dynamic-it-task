@@ -4,7 +4,7 @@ import { CgFileDocument } from "react-icons/cg";
 const Card = () => {
 	return (
 		<div className="shadow-lg h-[350px] border">
-			<img src="https://ditibd.com/wp-content/themes/eduma/images/demo_images/demo_image.jpg" alt="" />
+			<img className="w-full" src="https://ditibd.com/wp-content/themes/eduma/images/demo_images/demo_image.jpg" alt="" />
 			<div>
 				<p className="text-center font-fontRoboto text-[15px] text-[#337ab7]">AS Rony</p>
 				<p className="text-center font-fontRobotoSlab text-lg text-[#333333] mb-8">Web Developer</p>

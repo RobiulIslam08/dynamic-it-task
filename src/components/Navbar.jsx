@@ -5,47 +5,6 @@ import { Link } from "react-router-dom";
 
 
 
-// const Navbar = () => {
-// 	return (
-// 		<div className=" ">
-// 			{/* navbar first part  */}
-// <nav className="flex justify-between py-3 px-4 md:px-24 bg-[#222222] ">
-// 	<div className="flex items-center gap-5 md:gap-2">
-// 		<p className="text-white font-fontRoboto text-xs hidden md:flex">Contact us:</p>
-
-// 		<FiPhone className="text-[#de1919] text-[30px]" />
-// 		<p className="text-[#ababab] font-fontRoboto text-xs hidden md:flex">01964121744</p>
-
-
-// 		<LuMailCheck className="text-[#de1919] text-[30px]" />
-// 		<p className="text-[#ababab] font-fontRoboto text-xs hidden md:flex">dynamicit20@gmail.com</p>
-
-// 	</div>
-// 	<div>
-// 		<Link className="hover:underline text-[#ababab] text-xs">Login</Link>
-// 	</div>
-// </nav>
-// 			<nav>
-// 				{/* logo */}
-// 				<div className="w-16">
-// 					<img src="https://ditibd.com/wp-content/uploads/2024/12/315330483_609680960906810_2894060131005582895_n.jpg" alt=""  />
-// 				</div>
-// 				{/* menu */}
-// 				<div>
-
-// 				</div>
-// 			</nav>
-
-
-
-
-// 			{/* navbar second part  */}
-// 			Navbar 2nd
-// 		</div>
-// 	);
-// };
-
-// export default Navbar;
 
 
 import { useState } from "react";
@@ -68,7 +27,7 @@ const ResponsiveNavbar = () => {
 	const [mobileServiceOpen, setMobileServiceOpen] = useState(false)
 
 	return (
-		<div className="">
+		<div className=" ">
 			{/*  first nav part */}
 			<nav className="flex justify-between py-3 px-4 md:px-24 bg-[#222222]  ">
 				<div className="flex items-center gap-5 md:gap-2">
@@ -88,7 +47,7 @@ const ResponsiveNavbar = () => {
 			</nav>
 
 			{/* 2nd nav part */}
-			<nav className="flex items-center  justify-between max-w-full px-4 md:px-24 pr-0 relative h-auto bg-[#47e549] font-fontRoboto  ">
+			<nav className="flex items-center  justify-between max-w-full px-4 md:px-24 pr-0 relative h-auto bg-[#47e549] font-fontRoboto  overflow-x-clip ">
 				<img src="https://ditibd.com/wp-content/uploads/2024/12/315330483_609680960906810_2894060131005582895_n.jpg" alt="logo" className="w-[50px] py-2 " />
 				<ul className="items-center justify-between gap-[40px] text-[1rem] text-[#413f3f] lg:flex hidden ">
 					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize bold ">Home</li>
@@ -98,7 +57,7 @@ const ResponsiveNavbar = () => {
 						onMouseLeave={() => setAboutHover(false)}>
 						Course
 						<MdKeyboardArrowDown
-							className="text-[1.5rem] text-[#424242] group-hover:text-[#ffb606] transition-all duration-500 group-hover:rotate-[180deg]" />
+							className=" text-[1.5rem] text-[#424242] group-hover:text-[#ffb606] transition-all duration-500 group-hover:rotate-[180deg]" />
 
 						<article
 							className=" p-6 bg-white  boxShadow w-[350px] absolute top-[40px] z-[-1] left-[-100px] group-hover:translate-y-0 translate-y-[-20px] group-hover:opacity-100 opacity-0 group-hover:z-30 transition-all duration-300">
@@ -194,14 +153,14 @@ const ResponsiveNavbar = () => {
 				</ul>
 
 				{/* for mobile  when click this show menu */}
-				<div className="flex items-center gap-[10px]">
+				<div className="flex items-center gap-[10px] ">
 
-					<CiMenuFries className="text-[1.6rem] text-[#424242]c cursor-pointer lg:hidden flex"
+					<CiMenuFries className="text-[1.6rem] text-[#424242]c cursor-pointer lg:hidden flex mr-5"
 						onClick={() => setMobileSidebarOpen(!mobileSidebarOpen)} />
 				</div>
 
 				<aside
-					className={` ${mobileSidebarOpen ? "translate-x-0 opacity-100 z-20" : "translate-x-[200px] opacity-0 z-[-1]"} lg:hidden bg-white boxShadow p-4 text-center absolute top-[55px] right-0 sm:w-[300px] w-full  transition-all duration-300`}>
+					className={` ${mobileSidebarOpen ? "translate-x-0 opacity-100 z-20 " : " translate-x-[200px] opacity-0 z-[-1]"} lg:hidden bg-white boxShadow p-4 text-center absolute top-[55px] right-0 sm:w-[300px] w-full  transition-all duration-300 `}>
 					<ul className="items-start gap-[20px] text-[1rem] text-gray-600 flex flex-col">
 
 						<li className="hover:text-[#ffb606] group transition-all duration-500 cursor-pointer capitalize flex items-center gap-[10px]">

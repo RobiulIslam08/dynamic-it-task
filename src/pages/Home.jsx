@@ -8,13 +8,13 @@ import Slider from "../components/Slider";
 
 const Home = () => {
 	return (
-		<div className="overflow-x-hidden">
+		<div className="">
 			<Slider></Slider>
 			<PopularCourse></PopularCourse>
 			<RegisterNow></RegisterNow>
 			<ChooseUs></ChooseUs>
 			<Events></Events>
-			{/* <Notice></Notice> */}
+			<Notice></Notice>
 		</div>
 	);
 };

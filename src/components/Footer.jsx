@@ -10,7 +10,7 @@ const Footer = () => {
 	return (
 		<footer className="bg-[#111111]  w-full  sm:p-9">
 			<div
-				className="flex justify-between gap-[30px] flex-col sm:flex-row flex-wrap w-full px-24">
+				className="flex justify-between gap-[30px] flex-col sm:flex-row flex-wrap w-full  px-6 md:px-24">
 				<div className="w-full sm:w-[25%] ">
 					<img src="https://ditibd.com/wp-content/uploads/2022/12/logo-edu-white.png" alt="logo"
 						className="w-[150px] mb-[20px]" />
