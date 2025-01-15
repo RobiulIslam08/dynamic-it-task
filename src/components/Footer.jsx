@@ -2,6 +2,7 @@
 
 
 // react icons
+import { FaFacebook, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineEmail, MdOutlineLocalPhone } from "react-icons/md";
 
@@ -14,7 +15,7 @@ const Footer = () => {
 				<div className="w-full sm:w-[25%] ">
 					<img src="https://ditibd.com/wp-content/uploads/2022/12/logo-edu-white.png" alt="logo"
 						className="w-[150px] mb-[20px]" />
-					<div className="flex flex-col gap-[20px] text-primary">
+					<div className="flex flex-col gap-[20px] text-primary ">
 						<span><a
 							className="text-[0.9rem] flex items-center gap-[8px]  cursor-pointer text-[#999999]">
 							<MdOutlineLocalPhone className="text-[1.1rem] text-[#ffb606] " />
@@ -32,6 +33,12 @@ const Footer = () => {
 						</a></span>
 
 					</div>
+					<div className="flex  gap-4 text-2xl text-[#e92727]  mt-4">
+						<FaFacebook className="hover:text-[#de1919e2] transition-all duration-300 ease-in" />
+						<FaInstagram className="hover:text-[#de1919bc] transition-all duration-300 ease-in" />
+						<FaLinkedinIn className="hover:text-[#de1919bc] transition-all duration-300 ease-in" />
+
+					</div>
 				</div>
 
 				<div className="">
@@ -47,34 +54,33 @@ const Footer = () => {
 
 
 				<div className="">
-					<h3 className="text-[1.2rem] font-semibold text-text mb-2 text-[#ffffff]">Company</h3>
+					<h3 className="text-[1.2rem] font-semibold text-text mb-2 text-[#ffffff]">Links</h3>
 					<div className="flex text-black flex-col gap-[10px]">
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Service</p>
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Features</p>
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Our
-							Team</p>
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Portfolio</p>
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Blog</p>
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Contact
-							Us</p>
+						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Course</p>
+						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Shop</p>
+						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">
+							Events</p>
+						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Gallery</p>
+					
 					</div>
 				</div>
 
 
 				<div className="">
-					<h3 className="text-[1.2rem] font-semibold text-text mb-2 text-[#ffffff]">Our Social Media</h3>
+					<h3 className="text-[1.2rem] font-semibold text-text mb-2 text-[#ffffff]">Support</h3>
 					<div className="flex text-black flex-col gap-[10px]">
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Dribbble</p>
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Behance</p>
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Medium</p>
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Instagram</p>
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Facebook</p>
-						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Twitter</p>
+						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">FAQ</p>
+						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Privacy Policy</p>
+						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Terms & Conditions</p>
+						<p className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 text-[#999999]">Sitemap</p>
+					
 					</div>
 				</div>
 
 
 			</div>
+			<hr className="md:mx-24 mx-6 mt-6 border-gray-700" />
+			<p className="text-gray-500 font-fontRoboto flex justify-center items-center pt-5 md:pt-7 pb-4 md:pb-6">Copyright © 2025 Dynamic IT Institute.</p>
 		</footer>
 	);
 };
