@@ -1,4 +1,5 @@
 import PopularCourse from "../components/PopularCourse";
+import RegisterNow from "../components/RegisterNow";
 import Slider from "../components/Slider";
 
 
@@ -7,6 +8,7 @@ const Home = () => {
 		<div>
 			<Slider></Slider>
 			<PopularCourse></PopularCourse>
+			<RegisterNow></RegisterNow>
 		</div>
 	);
 };

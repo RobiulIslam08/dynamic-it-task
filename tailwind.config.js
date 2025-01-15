@@ -8,6 +8,9 @@ export default {
         fontRoboto: ["Roboto", "system-ui"],
 
         fontRobotoSlab: ["Roboto Slab", "system-ui"],
+        clipPath: {
+          'custom-ellipse': 'ellipse(56% 50% at 50% 0%)',
+        },
       },
     },
   },
