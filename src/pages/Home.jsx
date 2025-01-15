@@ -1,4 +1,5 @@
 import ChooseUs from "../components/ChooseUs";
+import Events from "../components/Events";
 import PopularCourse from "../components/PopularCourse";
 import RegisterNow from "../components/RegisterNow";
 import Slider from "../components/Slider";
@@ -11,6 +12,7 @@ const Home = () => {
 			<PopularCourse></PopularCourse>
 			<RegisterNow></RegisterNow>
 			<ChooseUs></ChooseUs>
+			<Events></Events>
 		</div>
 	);
 };
