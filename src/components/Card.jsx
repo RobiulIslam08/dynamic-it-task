@@ -3,7 +3,7 @@ import { CgFileDocument } from "react-icons/cg";
 
 const Card = () => {
 	return (
-		<div className=" h-[350px] border hover:shadow-2xl hover:border-b-orange-400 transition duration-300 ease-in">
+		<div className=" h-[370px] border hover:shadow-2xl hover:border-b-orange-400 transition duration-300 ease-in">
 			<img className="w-full" src="https://ditibd.com/wp-content/themes/eduma/images/demo_images/demo_image.jpg" alt="" />
 			<div>
 				<p className="text-center font-fontRoboto text-[15px] text-[#337ab7]">AS Rony</p>
