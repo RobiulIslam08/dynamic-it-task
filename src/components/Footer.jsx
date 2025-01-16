@@ -9,7 +9,7 @@ import { MdOutlineEmail, MdOutlineLocalPhone } from "react-icons/md";
 const Footer = () => {
 
 	return (
-		<footer className="bg-[#111111]  w-full  sm:p-9">
+		<footer className="bg-[#111111]  w-full  sm:p-9 pt-5">
 			<div
 				className="flex justify-between gap-[30px] flex-col sm:flex-row flex-wrap w-full  px-6 md:px-24">
 				<div className="w-full sm:w-[25%] ">
