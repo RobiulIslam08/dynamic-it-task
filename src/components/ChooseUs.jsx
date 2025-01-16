@@ -13,19 +13,19 @@ const ChooseUs = () => {
 			</div>
 			{/* card */}
 			<div className="px-24 flex flex-col justify-center items-center md:flex-row gap-10 mb-14">
-				<div className="bg-gradient-to-t from-[#2087fde5] to-[#fdfeff] h-80 w-[280px] md:w-[330px] flex flex-col justify-center items-center text-center px-14">
+				<div className="bg-gradient-to-t from-[#2087fde5] to-[#fdfeff] h-80 w-[280px] md:w-[330px] flex flex-col justify-center items-center text-center px-14 hover:shadow-amber-200 hover:shadow-md transition-all duration-500 ease-in hover:scale-95">
 					<GiExpense className="text-7xl text-[#f5bc2b]" />
 					<p className="mt-5 mb-3 font-semibold text-[#333333] text-lg font-fontRobotoSlab ">Highly Experienced</p>
 					<p className="font-fontRoboto text-[#606060]">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
 					</p>
 				</div>
-				<div className="bg-gradient-to-t from-[#f22a5ce0] to-[#fdfeff] h-80 w-[280px] md:w-[330px] flex flex-col justify-center items-center text-center px-14">
+				<div className="bg-gradient-to-t from-[#f22a5ce0] to-[#fdfeff] h-80 w-[280px] md:w-[330px] flex flex-col justify-center items-center text-center px-14 hover:shadow-amber-200 hover:shadow-md transition-all duration-500 ease-in hover:scale-95">
 					<TbDeviceMobileQuestion className="text-7xl text-[#f5bc2b]" />
 					<p className="mt-5 mb-3 font-semibold text-[#333333] text-lg font-fontRobotoSlab ">Question, Quiz & Course</p>
 					<p className="font-fontRoboto text-[#606060]">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
 					</p>
 				</div>
-				<div className="bg-[#a7d8b5] h-80 w-[280px] md:w-[330px] flex flex-col justify-center items-center text-center px-14">
+				<div className="bg-[#a7d8b5] h-80 w-[280px] md:w-[330px] flex flex-col justify-center items-center text-center px-14 hover:shadow-amber-200 hover:shadow-md transition-all duration-500 ease-in hover:scale-95">
 					<LuMessageSquareDiff className="text-7xl text-[#f5bc2b]" />
 					<p className="mt-5 mb-3 font-semibold text-[#333333] text-lg font-fontRobotoSlab ">24 Hours Supports</p>
 					<p className="font-fontRoboto text-[#606060]">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur

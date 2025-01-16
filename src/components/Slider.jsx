@@ -52,7 +52,7 @@ import dynamic3 from '../assets/images/473079832_1173522394522661_90383736439147
 // import './styles.css';
 
 // import required modules
-import { Pagination, Navigation,Autoplay } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 import { Typewriter } from 'react-simple-typewriter';
 
 const Slider = () => {
@@ -68,127 +68,127 @@ const Slider = () => {
           clickable: true,
         }}
         navigation={true}
-		autoplay={{
-			delay: 2000, // Set the slide change interval to 2 seconds
-			disableOnInteraction: false, // Ensures autoplay continues even after interaction
-		  }}
-        modules={[Pagination, Navigation,Autoplay]}
-    
+        autoplay={{
+          delay: 2000, // Set the slide change interval to 2 seconds
+          disableOnInteraction: false, // Ensures autoplay continues even after interaction
+        }}
+        modules={[Pagination, Navigation, Autoplay]}
+
         className="mySwiper h-[200px] md:h-[400px] lg:h-[500px]"
       >
         <SwiperSlide>
-       
+
           <div className='relative'>
             <img className='w-full bg-cover  object-cover'
               src={dynamic1}
               loading="lazy"
             />
-         
-            <div className='absolute inset-0 bg-gradient-to-t from-black to-transparent flex justify-center items-center md:h-[400px]  h-[200px] lg:h-[500px] text-white font-bold text-[22px] lg:text-3xl'> 
-            <div className='flex justify-center items-center flex-col lg:gap-3 w-1/2'>
-                <p className='text-[#de1919]'>Dynamic IT Institute</p>
-        <p className='text-center text-sm lg:text-base'> <h1  >
-        Our{' '}
-        <span style={{ color: '', fontWeight: 'bold' }}>
-          {/* Style will be inherited from the parent element */}
-          <Typewriter
 
-            words={['website working now']}
-            loop={false}
-            cursor
-            cursorStyle='_'
-            typeSpeed={20}
-            deleteSpeed={30}
-            delaySpeed={1000}
-            // onLoopDone={handleDone}
-            // onType={handleType}
-          />
-        </span>
-      </h1></p>
-        
+            <div className='absolute inset-0 bg-gradient-to-t from-[#312d2dcb]  to-transparent flex justify-center items-center md:h-[400px]  h-[200px] lg:h-[500px] text-white font-bold text-[22px] lg:text-3xl'>
+              <div className='flex justify-center items-center flex-col lg:gap-3 w-1/2'>
+                <p className='bg-gradient-to-r from-indigo-900 via-purple-900 to-pink-900 bg-clip-text text-transparent text-center font-bold font-fontRobotoSlab'>Dynamic IT Institute</p>
+                <p className='text-center text-sm lg:text-base'> <h1  >
+                  Our{' '}
+                  <span style={{ color: '', fontWeight: 'bold' }}>
+                    {/* Style will be inherited from the parent element */}
+                    <Typewriter
+
+                      words={['website working now']}
+                      loop={false}
+                      cursor
+                      cursorStyle='_'
+                      typeSpeed={20}
+                      deleteSpeed={30}
+                      delaySpeed={1000}
+                    // onLoopDone={handleDone}
+                    // onType={handleType}
+                    />
+                  </span>
+                </h1></p>
+
               </div>
             </div>
-   
+
           </div>
           <div className="swiper-lazy-preloader swiper-lazy-preloader-white"> </div>
-         
+
         </SwiperSlide>
         <SwiperSlide>
-       
+
           <div className='relative'>
             <img className='w-full bg-cover  object-cover'
               src={dynamic2}
               loading="lazy"
             />
-         
-            <div className='absolute inset-0 bg-gradient-to-t from-black to-transparent flex justify-center items-center md:h-[400px]  h-[200px] lg:h-[500px] text-white font-bold text-[22px] lg:text-3xl'> 
-            <div className='flex justify-center items-center flex-col lg:gap-3 w-1/2'>
-                <p className='text-[#de1919]'>Dynamic IT Institute</p>
-        <p className='text-center text-sm lg:text-base'> <h1  >
-        Our{' '}
-        <span style={{ color: '', fontWeight: 'bold' }}>
-          {/* Style will be inherited from the parent element */}
-          <Typewriter
 
-            words={['website working now']}
-            loop={false}
-            cursor
-            cursorStyle='_'
-            typeSpeed={20}
-            deleteSpeed={30}
-            delaySpeed={1000}
-            // onLoopDone={handleDone}
-            // onType={handleType}
-          />
-        </span>
-      </h1></p>
-        
+            <div className='absolute inset-0 bg-gradient-to-t from-[#312d2dcb]  to-transparent flex justify-center items-center md:h-[400px]  h-[200px] lg:h-[500px] text-white font-bold text-[22px] lg:text-3xl'>
+              <div className='flex justify-center items-center flex-col lg:gap-3 w-1/2'>
+                <p className='bg-gradient-to-r from-indigo-900 via-purple-900 to-pink-900 bg-clip-text text-transparent text-center font-bold font-fontRobotoSlab'>Dynamic IT Institute</p>
+                <p className='text-center text-sm lg:text-base'> <h1  >
+                  Our{' '}
+                  <span style={{ color: '', fontWeight: 'bold' }}>
+                    {/* Style will be inherited from the parent element */}
+                    <Typewriter
+
+                      words={['website working now']}
+                      loop={false}
+                      cursor
+                      cursorStyle='_'
+                      typeSpeed={20}
+                      deleteSpeed={30}
+                      delaySpeed={1000}
+                    // onLoopDone={handleDone}
+                    // onType={handleType}
+                    />
+                  </span>
+                </h1></p>
+
               </div>
             </div>
-   
+
           </div>
           <div className="swiper-lazy-preloader swiper-lazy-preloader-white"> </div>
-         
+
         </SwiperSlide>
         <SwiperSlide>
-       
+
           <div className='relative'>
             <img className='w-full bg-cover  object-cover'
               src={dynamic3}
               loading="lazy"
             />
-         
-            <div className='absolute inset-0 bg-gradient-to-t from-black to-transparent flex justify-center items-center md:h-[400px]  h-[200px] lg:h-[500px] text-white font-bold text-[22px] lg:text-3xl'> 
-            <div className='flex justify-center items-center flex-col lg:gap-3 w-1/2'>
-                <p className='text-[#de1919]'>Dynamic IT Institute</p>
-        <p className='text-center text-sm lg:text-base'> <h1  >
-        Our{' '}
-        <span style={{ color: '', fontWeight: 'bold' }}>
-          {/* Style will be inherited from the parent element */}
-          <Typewriter
 
-            words={['website working now']}
-            loop={false}
-            cursor
-            cursorStyle='_'
-            typeSpeed={20}
-            deleteSpeed={30}
-            delaySpeed={1000}
-            // onLoopDone={handleDone}
-            // onType={handleType}
-          />
-        </span>
-      </h1></p>
-        
+            <div className='absolute inset-0 bg-gradient-to-t from-[#312d2dcb] to-transparent flex justify-center items-center md:h-[400px]  h-[200px] lg:h-[500px] text-white font-bold text-[22px] lg:text-3xl'>
+              <div className='flex justify-center items-center flex-col lg:gap-3 w-1/2'>
+                <p className='bg-gradient-to-r from-indigo-900 via-purple-900 to-pink-900 bg-clip-text text-transparent text-center font-bold font-fontRobotoSlab'>Dynamic IT Institute</p>
+                <p className='text-center text-sm lg:text-base'> <h1  >
+                  Our{' '}
+                  <span style={{ color: '', fontWeight: 'bold' }}>
+                    {/* Style will be inherited from the parent element */}
+                    <Typewriter
+
+                      words={['website working now']}
+                      loop={false}
+                      cursor
+                      cursorStyle='_'
+                      typeSpeed={20}
+                      deleteSpeed={30}
+                      delaySpeed={1000}
+                    // onLoopDone={handleDone}
+                    // onType={handleType}
+                    />
+                  </span>
+                </h1></p>
+
               </div>
             </div>
-   
+
           </div>
           <div className="swiper-lazy-preloader swiper-lazy-preloader-white"> </div>
-         
+
         </SwiperSlide>
 
-    
+
 
       </Swiper>
 

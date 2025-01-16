@@ -1,4 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+	.nav {
+	  @apply relative ;
+	}
+  
+	.nav:hover {
+	  @apply text-white;
+	}
+  
+	.nav::after {
+	  content: '';
+	  @apply bg-pink-500 h-[2px] w-[0%] left-0 bottom-[-5px] rounded-xl absolute duration-500;
+	}
+  
+	.nav:hover::after {
+	  @apply w-[100%];
+	}
+  }
+  

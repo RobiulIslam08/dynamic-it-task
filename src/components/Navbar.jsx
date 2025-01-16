@@ -21,13 +21,14 @@ import { MdKeyboardArrowDown, MdKeyboardArrowRight } from "react-icons/md";
 const ResponsiveNavbar = () => {
 
 	const [aboutHover, setAboutHover] = useState(false)
+
 	const [serviceHover, setServiceHover] = useState(false)
 	const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false)
 	const [mobileAboutUsOpen, setMobileAboutUsOpen] = useState(false)
 	const [mobileServiceOpen, setMobileServiceOpen] = useState(false)
 
 	return (
-		<div className=" ">
+		<div className="  ">
 			{/*  first nav part */}
 			<nav className="flex justify-between py-3 px-4 md:px-24 bg-[#222222]  ">
 				<div className="flex items-center gap-5 md:gap-2">
@@ -47,12 +48,12 @@ const ResponsiveNavbar = () => {
 			</nav>
 
 			{/* 2nd nav part */}
-			<nav className="flex items-center  justify-between max-w-full px-4 md:px-24 pr-0 relative h-auto bg-[#47e549] font-fontRoboto  overflow-x-clip ">
-				<img src="https://ditibd.com/wp-content/uploads/2024/12/315330483_609680960906810_2894060131005582895_n.jpg" alt="logo" className="w-[50px] py-2 " />
+			<nav className="flex items-center  justify-between max-w-full px-4 md:pl-24 pr-0 relative h-auto bg-[#47e549] font-fontRoboto  overflow-x-clip ">
+			<Link to="/">	<img src="https://ditibd.com/wp-content/uploads/2024/12/315330483_609680960906810_2894060131005582895_n.jpg" alt="logo" className="w-[50px] py-2 " /></Link>
 				<ul className="items-center justify-between gap-[40px] text-[1rem] text-[#413f3f] lg:flex hidden ">
-					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize bold ">Home</li>
-					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize">About Us</li>
-					<li className=" transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize flex items-center gap-[3px] group relative"
+					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize bold nav"><Link to="/home2">Home</Link></li>
+					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize nav"><Link to='/about'>About Us</Link></li>
+					<li className=" transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize flex items-center gap-[3px] group relative nav"
 						onMouseOver={() => setAboutHover(true)}
 						onMouseLeave={() => setAboutHover(false)}>
 						Course
@@ -112,7 +113,7 @@ const ResponsiveNavbar = () => {
 
 						</article>
 					</li>
-					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize group relative flex items-center gap-[3px]"
+					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize group relative flex items-center gap-[3px] nav"
 						onMouseOver={() => setServiceHover(true)}
 						onMouseLeave={() => setServiceHover(false)}>
 						Our Achievement
@@ -143,11 +144,11 @@ const ResponsiveNavbar = () => {
 
 						</article>
 					</li>
-					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize">Blog</li>
-					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize">Contact</li>
-					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize">Exam</li>
-					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize">Job Placement</li>
-					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize">Notice</li>
+					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize nav"><Link to="/blog">Blog</Link></li>
+					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize nav"><Link to="/contact">Contact</Link></li>
+					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize nav"><Link to="/exam">Exam</Link></li>
+					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize nav"><Link to="/job-placement">Job Placement</Link></li>
+					<li className="transition-all duration-500 cursor-pointer hover:text-[#ffb606] capitalize nav"><Link to="/notice">Notice</Link></li>
 
 
 				</ul>
@@ -164,10 +165,10 @@ const ResponsiveNavbar = () => {
 					<ul className="items-start gap-[20px] text-[1rem] text-gray-600 flex flex-col">
 
 						<li className="hover:text-[#ffb606] group transition-all duration-500 cursor-pointer capitalize flex items-center gap-[10px]">
-							Home
+					<Link to="/home2">Home</Link>
 						</li>
 						<li className="hover:text-[#ffb606] group transition-all duration-500 cursor-pointer capitalize flex items-center gap-[10px]">
-							About Us
+							<Link to="/about">About Us</Link>
 						</li>
 
 						<li onClick={() => setMobileAboutUsOpen(!mobileAboutUsOpen)}
@@ -258,19 +259,19 @@ const ResponsiveNavbar = () => {
 
 						<li className="hover:text-[#ffb606] group transition-all duration-500 cursor-pointer capitalize flex items-center gap-[10px]">
 
-							Blog
+							<Link to="/blog">Blog</Link>
 						</li>
 						<li className="hover:text-[#ffb606] group transition-all duration-500 cursor-pointer capitalize flex items-center gap-[10px]">
-							Contact
+							<Link to="/contact">Contact</Link>
 						</li>
 						<li className="hover:text-[#ffb606] group transition-all duration-500 cursor-pointer capitalize flex items-center gap-[10px]">
-							Exam
+							<Link to='/exam'>Exam</Link>
 						</li>
 						<li className="hover:text-[#ffb606] group transition-all duration-500 cursor-pointer capitalize flex items-center gap-[10px]">
-							Job Placement
+							<Link to='/job-placement'>Job Placement</Link>
 						</li>
 						<li className="hover:text-[#ffb606] group transition-all duration-500 cursor-pointer capitalize flex items-center gap-[10px]">
-							Notice
+							<Link to='/notice'>Notice</Link>
 						</li>
 					</ul>
 				</aside>

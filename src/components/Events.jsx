@@ -17,7 +17,7 @@ const Events = () => {
 			{/* card */}
 			<div>
 				{/* card one */}
-				<div className="flex flex-col-reverse md:flex-row items-center justify-between gap-14">
+				<div className="flex flex-col-reverse md:flex-row items-center justify-between gap-14 ">
 					{/* date */}
 					<div className="hidden md:flex flex-col">
 						<p className="text-[#ffb606] text-6xl font-bold font-fontRoboto ">30</p>
@@ -41,7 +41,7 @@ const Events = () => {
 					</div>
 					<img src="https://ditibd.com/wp-content/uploads/2022/04/courses-14-450x233.jpg" alt="" />
 				</div>
-
+n
 				<hr className="md:hidden flex mb-5 mt-6 text-blue-800"></hr>
 				{/* card two */}
 				<div className="flex flex-col-reverse md:flex-row items-center justify-between gap-14 mt-4">
