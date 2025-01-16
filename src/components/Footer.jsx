@@ -34,9 +34,9 @@ const Footer = () => {
 
 					</div>
 					<div className="flex  gap-4 text-2xl text-[#e92727]  mt-4">
-						<FaFacebook className="hover:text-[#de1919e2] transition-all duration-300 ease-in" />
-						<FaInstagram className="hover:text-[#de1919bc] transition-all duration-300 ease-in" />
-						<FaLinkedinIn className="hover:text-[#de1919bc] transition-all duration-300 ease-in" />
+						<FaFacebook className="hover:text-[#de1919e2] transition-all duration-300 ease-in hover:scale-125" />
+						<FaInstagram className="hover:text-[#de1919bc] transition-all duration-300 ease-in hover:scale-125" />
+						<FaLinkedinIn className="hover:text-[#de1919bc] transition-all duration-300 ease-in hover:scale-125" />
 
 					</div>
 				</div>
