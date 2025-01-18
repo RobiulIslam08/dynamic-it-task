@@ -69,7 +69,7 @@ const Notice = () => {
 							alt=""
 						/>
 						<p className="bg-[#ffb606] py-1 w-[160px] px-4 text-xs mb-4 absolute -mt-2 ml-12">
-							AS Rony - May 28, 2024
+							AS Rony - May 28, 2023
 						</p>
 						<p className="mt-8 text-white font-fontRoboto text-center">EducationWP</p>
 						<div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition duration-200 ease-in-out">
